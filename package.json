@@ -1,0 +1,24 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "```go \r cd ion-sfu-master\r go build ./cmd/signal/json-rpc/main.go\r ./main -c config.toml -key ./key.pem -cert ./cert.pem -a \":7000\"\r ```\r ### 启动Node.js服务器\r ```\r npm install\r node server.js\r ```",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chatgpt": "^5.1.2",
+    "http-proxy": "^1.18.1",
+    "https-proxy-agent": "^5.0.1",
+    "node-fetch": "^3.3.1",
+    "socket.io": "^4.6.1",
+    "soket.io": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "express": "^4.18.2"
+  }
+}
